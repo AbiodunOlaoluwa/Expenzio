@@ -1,16 +1,14 @@
-import './App.css';
+import React from 'react'
 
-function App() {
+const inputFields = () => {
   return (
-    <div className="App">
-      <div className="descriptionField">
+    <div className="descriptionField">
         <label htmlFor="descriptionInput" className="descriptionLabel">
-          Description
+            Description
         </label>
         <input type="text" id="descriptionInput" />
-      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default inputFields;
