@@ -13,7 +13,7 @@ const Filter = (props) => {
     return (
         <div className="filterContainer">
             <select id="filterDropdown" onChange={handleOptionChange}>
-                <option key='all' value="All Categories">All Categories</option>
+                <option key='all' value="All">All Categories</option>
                 {
                     categories.map((item, index) => (
                         <option key={index} value={item}>{item}</option>

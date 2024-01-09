@@ -4,7 +4,7 @@ const DisplayTable = (props) => {
 
     const { data, deleteStuff, filterOption } = props
 
-    const filteredData = filterOption === 'All Categories' ? data : data.filter(item => item.category === filterOption)
+    const filteredData = filterOption === "All" ? data : data.filter(item => item.category === filterOption)
 
   let totalAmount = 0;
 
