@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Expenzio/static/css/main.7db67b50.css",
+    "main.js": "/Expenzio/static/js/main.a7e74e6a.js",
+    "static/js/787.cf179736.chunk.js": "/Expenzio/static/js/787.cf179736.chunk.js",
+    "index.html": "/Expenzio/index.html",
+    "main.7db67b50.css.map": "/Expenzio/static/css/main.7db67b50.css.map",
+    "main.a7e74e6a.js.map": "/Expenzio/static/js/main.a7e74e6a.js.map",
+    "787.cf179736.chunk.js.map": "/Expenzio/static/js/787.cf179736.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7db67b50.css",
+    "static/js/main.a7e74e6a.js"
+  ]
+}
