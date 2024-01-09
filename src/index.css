@@ -17,3 +17,115 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  width: 600px;
+
+}
+
+.tableData {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputsContainer {
+  display: block;
+}
+
+.inputs {
+  display: block;
+}
+
+.inputs > div {
+  margin: 20px;
+}
+
+label {
+  font-weight: 600;
+  transform: translateX(25px);
+  display: block;
+  text-align: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 0 3%;
+  font-size: medium;
+  width: 90%;
+  height: 40px;
+  border-radius: 10px;
+}
+
+
+.sbtnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submitButton {
+  width: 75px;
+  height: 40px;
+  background-color: hsl(259, 100%, 65%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.submitButton:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.filterContainer {
+  width: 100%;
+}
+
+#filterDropdown {
+  padding-left: 3%;
+  width: 60%;
+  text-align: left;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+#filerDropdown option {
+  height: 40px;
+}
+
+table {
+  width: 100%;
+}
+
+.total {
+  font-weight: 500;
+}
+
+.deleteButton {
+  background-color: white;
+  color: red;
+  height: 30px;
+  width: 70px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.deleteButton:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+tr, td, th {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
