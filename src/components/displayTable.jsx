@@ -4,7 +4,7 @@ const DisplayTable = (props) => {
 
     const { data, deleteStuff, filterOption } = props
 
-    const filteredData = filterOption === 'All' ? data : data.filter(item => item.category === filterOption)
+    const filteredData = filterOption === 'All Categories' ? data : data.filter(item => item.category === filterOption)
 
   let totalAmount = 0;
 
@@ -20,7 +20,6 @@ const DisplayTable = (props) => {
             <th>Description</th>
             <th>Amount</th>
             <th>Category</th>
-            
           </tr>
         </thead>
         <tbody>
@@ -30,12 +29,12 @@ const DisplayTable = (props) => {
                     <td>{"₦" + Intl.NumberFormat("en-US").format(item.amount)}</td>
                     <td>{item.category}</td>
                     <td>
-                        <button onClick={() => {deleteStuff(index)}}>Delete</button>
+                        <button className="deleteButton" onClick={() => {deleteStuff(index)}}>Delete</button>
                     </td>
                 </tr>
             ))}
             <tr>
-              <td>Total</td>
+              <td className='total'>Total</td>
               <td>{"₦" + Intl.NumberFormat("en-US").format(totalAmount)}</td>
             </tr>
         </tbody>
